@@ -22,7 +22,15 @@ pip install -r requirements.txt
 ``` bash
 poetry install
 ```
-
+Usando anaconda:
+``` bash
+conda create -n faceRecog python=3.6
+# Poetry manejador de paquetes en python
+conda install poetry   
+# Instalamos
+poetry install
+## Puede usar pip, como en la parte superior MD
+```
 # Uso
 Con python:  
 **Imagen**
