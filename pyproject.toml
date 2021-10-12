@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "face recognition"
+version = "0.1.0"
+description = "Reconocimiento de rostros con yolo y keras"
+authors = ["Fuhrerh-Lemon"]
+
+[tool.poetry.dependencies]
+python = "3.6"
+numpy
+tensorflow = "^1.12.1"
+opencv-python
+opencv-contrib-python
+keras
+matplotlib
+pillow
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
